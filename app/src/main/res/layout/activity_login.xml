@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.amaliayovadiani_1202154301_modul3.login">
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="198dp"
+            android:layout_height="161dp"
+            android:layout_above="@+id/txtUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            app:srcCompat="@drawable/aqua1"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtUser"
+            android:layout_alignStart="@+id/txtUser"
+            android:layout_below="@+id/txtUser"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:text="LOGIN"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="390dp" />
+    </RelativeLayout>
